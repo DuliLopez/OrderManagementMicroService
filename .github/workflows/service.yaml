@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: ordermanagementmicroservice
+  name: ordermanagementmicroservice
+spec:
+  ports:
+  - port: 8091
+    protocol: TCP
+    targetPort: 8091
+  selector:
+    app: ordermanagementmicroservice
+status:
+  loadBalancer: {}
