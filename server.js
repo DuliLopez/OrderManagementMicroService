@@ -106,6 +106,6 @@ app.listen(PORT, () => {
 app.use('/order', OrderController());
 
 app.get('/', (req, res) => {
-    res.send('Server Running in Mircor Sserice')
+    res.send('Server Running in MircorSserice')
     
   })
