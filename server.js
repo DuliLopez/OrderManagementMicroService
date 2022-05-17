@@ -96,7 +96,7 @@ mongoose.connect(MONGODB_URI, {
 });
 app.use(express.static('./public'))
 mongoose.connection.once('open', () => {
-    console.log('Database Connection Sucessfull For Micto Service Order Management');
+    console.log('Database Connection SucessfullFor Micto Service Order Management');
     //warnlevellogger('Database Connection Sucessfull For Micto Service Order Management: '  + " TimeStamp :" + getTimeStamp())
 });
 app.listen(PORT, () => {
