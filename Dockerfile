@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm i
 
-EXPOSE 3000
+EXPOSE 8091
 
 CMD ["node", "server.js"]
